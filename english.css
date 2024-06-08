@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+/*web font load*/
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/*web font load*/
+@font-face {
+    font-family: 'TiquiTaca-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/TiquiTaca-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*web font load*/
+@font-face {
+    font-family: 'MoveSans-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/MoveSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #EAF2FF;
+    color: #000000;
+}
+
+container {
+    max-width: 700px;
+    width: 700px;
+    margin:0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: space-between;
+    align-items: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1.2rem 1.2rem;
+}
+
+header>p {
+    margin: 2.5rem 0 0 4rem;
+    font-size: 7rem;
+    font-weight: 700;
+    font-family: 'MoveSans-Bold';
+   
+}
+
+header>ul {
+    display:flex;
+    margin-right: 80px;
+
+}
+
+header>ul>li {
+    list-style-type: none;
+    font-size: 3rem;
+    margin: 0 0 0 6rem;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    color: black;
+}
+
+header>ul>li:first-child>a {
+    border-bottom: 5px solid black;
+}
+
+header>ul>li>a:hover {
+    border-bottom: 5px solid gray;
+}
+
+@media screen and (max-width:600px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+section {
+    padding: 6rem 2rem;
+    text-align: center;
+    font-family: 'MoveSans-Bold';
+
+}
+
+section>p {
+    margin-bottom: 2rem;
+    line-height: 50px;
+}
+
+section>p:first-of-type {
+    font-size: 4rem;
+    font-weight:900;
+}
+
+
+section>p:last-of-type {
+    font-size: 2rem;
+    font-weight: 500;
+}
+h4:hover{
+    background-color: lightgoldenrodyellow;
+}
+section>a {
+    
+    display:block;
+    border: 1px solid black;
+    width: 150px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+
+
+}
+
+ballon {
+    text-align: center-bottom;
+    margin: 10rem 0 0 0rem;
+}

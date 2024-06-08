@@ -1,0 +1,29 @@
+body {
+    background-color: #EAF2FF;
+}
+
+p {
+    font-size: 50px;
+    margin: 4rem;
+    font-family: #EAF2FF;
+
+    
+}
+
+choose {
+    font-size: 500rem;
+}
+
+table {
+    font-size: 23px;
+    position: relative;
+    left: 500px;
+    bottom: 60px;
+}
+
+table1 {
+    font-size: 23px;
+    position: relative;
+    left: 800px;
+    bottom: 60px;
+}
